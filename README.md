@@ -30,3 +30,12 @@ Files:
 ```bash
 git clone https://github.com/ZinZinNaing-oops/KerasMNIST-Test.git
 cd KerasMNIST-Test
+
+## ▶️ How to Run the Project (Step by Step)
+
+### 1️⃣ Train the CNN model
+
+Run the training script:
+
+```bash
+python mnist_cnn_keras.py
