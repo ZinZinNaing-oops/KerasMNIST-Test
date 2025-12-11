@@ -1,0 +1,6 @@
+{
+    "[css]": {
+        "editor.fontSize": 18,
+        "editor.formatOnSave": false
+    }
+}

@@ -1,0 +1,12 @@
+# ==== Core libraries ====
+numpy==1.26.4
+matplotlib==3.10.7
+
+# ==== TensorFlow (platform-dependent) ====
+
+# Apple Silicon Macs (M1–M4)
+tensorflow-macos==2.16.2; platform_system == "Darwin" and platform_machine == "arm64"
+tensorflow-metal==1.2.0; platform_system == "Darwin" and platform_machine == "arm64"
+
+# Other systems (Windows, Linux, Intel Mac)
+tensorflow==2.16.2; platform_system != "Darwin" or platform_machine != "arm64"
